@@ -1,35 +1,38 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+import React from "react";
+import { Header } from "./Components/Header/Header";
+import "./App.css";
+import { ThemeContext } from "./Context/theme";
+import { About } from "./Components/About/About";
+import Aos from "aos";
+import "aos/dist/aos.css";
+// import { Techstacks } from "./Components/About/Techstacks";
+import { Github } from "./Components/About/Github";
+import { Projects } from "./Components/Projects/Projects";
+import { Contact } from "./Components/Contact/Contact";
+import { Footer } from "./Components/Footer/Footer";
+import { ScrollToTop } from "./Components/ScrollToTop/ScrollToTop";
+export default function App() {
+  const [{ themename }] = React.useContext(ThemeContext);
+  React.useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div id="top" className={`${themename} app`}>
+      <section id="#home">
+        <Header />
+      </section>
+      <main>
+        <About />
+        <Github />
+        <section id="#projects">
+          <Projects />
+        </section>
+        <section id="#contact">
+          <Contact />
+        </section>
+      </main>
+      <Footer />
+      <ScrollToTop />
+    </div>
+  );
 }
-
-export default App

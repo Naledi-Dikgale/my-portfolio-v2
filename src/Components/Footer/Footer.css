@@ -1,0 +1,22 @@
+.footer {
+  text-align: center;
+  color: var(--clr-primary);
+}
+
+.footerBox{
+  width: 50%;
+  margin: auto;
+  padding-bottom: 20px;
+  background-color: transparent;
+  padding: 20px;
+  height: auto;
+}
+
+
+@media (max-width: 600px) {
+  .footerBox{
+    width: 100%;
+    border-radius: 0px;
+    margin-bottom: 0px;
+  }
+}
