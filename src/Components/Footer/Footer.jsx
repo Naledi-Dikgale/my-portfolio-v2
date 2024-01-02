@@ -10,10 +10,10 @@ export const Footer = () => {
       <div className={"section " + themename}>
         <a href="/" rel="noreferrer" target="_blank">
           <div className="footerBox">
-            <h4 className="footer">
+            <h5 className="footer">
             ©All rights Reserved{" "}
               Naledi Dikgale 2023
-            </h4>
+            </h5>
           </div>
         </a>
       </div>
