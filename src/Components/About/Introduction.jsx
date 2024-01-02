@@ -58,7 +58,13 @@ export const Introduction = () => {
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Talking{" "}
+                Swimming{" "}
+              </h4>
+              <h4 className="pink">
+                <span className="icons">
+                  <ExitToAppIcon />
+                </span>
+                Hiking{" "}
               </h4>
             </div>
           </div>
