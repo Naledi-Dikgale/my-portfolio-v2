@@ -51,7 +51,7 @@ export const Techstacks = () => {
           </div>
           <div>
             <SiRedux />
-            <h5>Reux</h5>
+            <h5>Redux</h5>
           </div>
           <div>
             <SiNetlify />
