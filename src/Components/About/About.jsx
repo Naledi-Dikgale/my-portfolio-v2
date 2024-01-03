@@ -16,7 +16,7 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-            Based in Cape Town South Africa, I love to design and code things from scratch. I love swimming and traveling.
+            Based in Cape Town South Africa, I love to design and code things from scratch.
             I can help you build a product, feature or website. Look through some of my work and experience!
             If you like what you see and have a project you need coded, don&apos;t hesitate to contact me.
         </p>
@@ -40,7 +40,7 @@ export const About = () => {
             <EmailIcon />
           </a>
           <a
-            href="www.linkedin.com/in/naledi-dikgale"
+            href="https://www.linkedin.com/in/naledi-dikgale"
             aria-label="linkedin"
             className="link link--icon"
             target="_blank"
