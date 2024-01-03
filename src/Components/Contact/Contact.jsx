@@ -20,7 +20,7 @@ export const Contact = () => {
             data-aos="fade-right"
           >
             <a
-              href="www.linkedin.com/in/naledi-dikgale/"
+              href="https://www.linkedin.com/in/naledi-dikgale/"
               target="_blank"
               rel="noreferrer"
             >

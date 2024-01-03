@@ -21,7 +21,7 @@ export const Introduction = () => {
             </div>
             <div className="introduction_datacontainer">
               <h4>
-                Hello there, My name is{" "}
+                Hi, My name is{" "}
                 <span className="pink">Naledi Dikgale </span> and I am from{" "}
                 <span className="pink">
                   {" "}
