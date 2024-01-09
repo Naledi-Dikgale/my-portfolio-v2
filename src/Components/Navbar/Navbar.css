@@ -1,14 +1,16 @@
 .nav__list {
   margin-right: 1.5em;
   display: flex;
-  
 }
+
 .nav__list-item {
   margin-left: 1.5em;
 }
+
 .app .nav__hamburger {
   display: none;
 }
+
 .nav__theme {
   margin-top: 0.4em;
 }
