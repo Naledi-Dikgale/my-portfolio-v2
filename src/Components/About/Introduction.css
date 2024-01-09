@@ -53,10 +53,12 @@
     flex-direction: column;
     margin-top: 2em;
   }
+
   .introduction_logocontainer {
     margin-bottom: 3em;
     flex-basis: 30%;
   }
+
   .introduction_logocontainer > img {
     width: 60%;
     height: 100%;
@@ -64,6 +66,7 @@
     border-radius: 50%;
     border: 2px solid var(--clr-primary);
   }
+
   .introduction_datacontainer {
     padding-left: 10%;
     padding-right: 10%;
