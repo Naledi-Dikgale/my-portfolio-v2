@@ -29,7 +29,7 @@
 
 # 📖 [My Portfolio-v2] <a name="about-project"></a>
 
-**[My Portfolio]** My portfolio-v2 is an updated version of my portfolio and it show cases my skills, some of my projects, and provides more information on how to get hold of me. This portfolio is build using React, Vite and CSS..
+**[My Portfolio-v2]** My portfolio-v2 is an updated version of my portfolio and it show cases my skills, some of my projects, and provides more information on how to get hold of me. This portfolio is build using React, Vite and CSS..
 
 ## 🛠 Built With <a name="built-with"></a>
 
