@@ -50,7 +50,7 @@ button {
   cursor: pointer;
 }
 
-body{
+body {
   background-color: var(--clr-bg);
   color: var(--clr-fg);
 }
