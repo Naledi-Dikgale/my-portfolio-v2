@@ -16,9 +16,9 @@
   transition: all 0.5s ease-in-out 0s;
   color: var(--clr-primary);
   border: 3px solid var(--clr-primary);
-  /* padding: 5px; */
   border-radius: 20%;
 }
+
 .mailNumber .email {
   font-size: 2em;
   transition: all 0.5s ease-in-out 0s;
@@ -35,10 +35,12 @@
   grid-template-columns: repeat(1, 1fr);
   margin: auto;
 }
+
 @media (max-width: 670px) {
   .contactcontainer svg {
     font-size: 2em;
   }
+
   .contactcontainer{
     width: 70%;
   }
@@ -52,6 +54,7 @@
   .iconsCont{
     width: 90%
   }
+
   .contactcontainer svg:hover {
     font-size: 3rem;
   }
