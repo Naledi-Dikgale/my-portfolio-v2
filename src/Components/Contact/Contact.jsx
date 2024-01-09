@@ -11,13 +11,13 @@ export const Contact = () => {
   return (
     <>
       <div className="section">
-        <h2 className="section__title" data-aos="fade-right">
+        <h2 className="section__title">
           Let's <span className="pink">Connect</span>
         </h2>
         <div className="contactMain">
           <div
             className={"contactcontainer " + themename}
-            data-aos="fade-right"
+          
           >
             <a
               href="https://www.linkedin.com/in/naledi-dikgale/"
