@@ -9,15 +9,18 @@ import {
   SiRubyonrails,
 } from "react-icons/si";
 import { projectsData } from "./projectConstants";
+import { ThemeContext } from "../../Context/theme";
 
 export const Projects = () => {
+  const [{ themename }] = React.useContext(ThemeContext);
+  console.log("section " + themename);
   return (
     <>
-      <div className="section">
+      <div className={"section " + themename}>
         <h2 className="section__title pink">Projects</h2>
         <div className="allProjects">
-          {projectsData.map((project, index) => (
-            <div className="projectsContainer" >
+          {projectsData.map((project, projectIndex) => (
+            <div className="projectsContainer" key={projectIndex} >
               <div className="project">
                 <div className="projectImageContainer">
                   <div>
