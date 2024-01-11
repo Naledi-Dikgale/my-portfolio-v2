@@ -22,6 +22,7 @@ export const Timeline = () => {
       setlinecolor("#23283e");
     }
   }, [themename]);
+  console.log(linecolor);
   return (
     <>
       <div className="section mainsection">
