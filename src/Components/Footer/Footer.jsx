@@ -11,8 +11,8 @@ export const Footer = () => {
         <a href="/" rel="noreferrer" target="_blank">
           <div className="footerBox">
             <h5 className="footer">
-            ©All rights Reserved{" "}
-              Naledi Dikgale 2023
+           Copyright ©2024 Naledi Dikgale{" "}
+           - All rights Reserved
             </h5>
           </div>
         </a>
