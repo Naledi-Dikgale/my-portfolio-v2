@@ -8,7 +8,6 @@
   margin: 5px;
   margin: auto;
   margin-bottom: 10px;
-  
 }
 
 .contactcontainer svg {
@@ -29,7 +28,7 @@
   font-size: 4rem;
 }
 
-.contactMain{
+.contactMain {
   width: 90%;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -41,18 +40,19 @@
     font-size: 2em;
   }
 
-  .contactcontainer{
+  .contactcontainer {
     width: 70%;
   }
-  
-  .contactMain{
+
+  .contactMain {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 0px;
+    margin: 0;
   }
-  .iconsCont{
-    width: 90%
+
+  .iconsCont {
+    width: 90%;
   }
 
   .contactcontainer svg:hover {

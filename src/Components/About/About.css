@@ -39,7 +39,7 @@
   border-radius: 5px;
   height: 50px;
   cursor: pointer;
-  padding: 0px 30px;
+  padding: 0 30px;
   margin-top: 10px;
 }
 
@@ -54,12 +54,11 @@
   }
 
   .app .about {
-    align-items: flex-start;
     margin-top: 2em;
     justify-content: center;
     align-items: center;
   }
-  
+
   .about > :nth-child(2) {
     font-size: 1.5rem;
   }

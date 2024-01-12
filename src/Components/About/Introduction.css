@@ -22,6 +22,11 @@
   border: 2px solid var(--clr-primary);
 }
 
+.introduction_datacontainer > h4 {
+  font-size: 1em;
+  margin-top: 0.5em;
+}
+
 .introduction_datacontainer {
   flex-basis: 55%;
 }
@@ -34,11 +39,6 @@
 .introduction_datacontainer > h4:nth-child(2) {
   margin-top: 1.4em;
   line-height: 1.4em;
-}
-
-.introduction_datacontainer > h4 {
-  font-size: 1em;
-  margin-top: 0.5em;
 }
 
 .icons {
@@ -62,7 +62,7 @@
   .introduction_logocontainer > img {
     width: 60%;
     height: 100%;
-    border-radius: 20px;  
+    border-radius: 20px;
     border-radius: 50%;
     border: 2px solid var(--clr-primary);
   }

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
 .app {
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
@@ -12,8 +13,9 @@
   --clr-fg: #bdbddd;
   --clr-fg-alt: #cdcdff;
   --clr-primary: #be185d;
-  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  --shadow:
+    rgba(0, 0, 0, 0.16) 0 10px 36px 0,
+    rgba(0, 0, 0, 0.06) 0 0 0 1px;
 }
 
 .light {
@@ -22,9 +24,8 @@
   --clr-fg: #555;
   --clr-fg-alt: #444;
   --clr-primary: #be185d;
-  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 }
-
 
 main {
   max-width: 1100px;
@@ -104,7 +105,7 @@ main {
   color: var(--clr-bg);
 }
 
-.btn--outline:before {
+.btn--outline::before {
   content: "";
   position: absolute;
   background-color: var(--clr-primary);
@@ -116,15 +117,15 @@ main {
   transition: right 0.2s ease-in-out;
 }
 
-.btn--outline:hover:before,
-.btn--outline:focus:before {
+.btn--outline:hover::before,
+.btn--outline:focus::before {
   right: 0;
 }
 
 .btn--plain {
   text-transform: initial;
   background-color: var(--clr-bg-alt);
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 3px 3px 0;
   border: 0;
 }
 

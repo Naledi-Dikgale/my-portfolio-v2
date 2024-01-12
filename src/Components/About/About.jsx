@@ -1,4 +1,3 @@
-import React from "react";
 import "./About.css";
 import { Type } from "./Type";
 import GitHubIcon from "@mui/icons-material/GitHub";

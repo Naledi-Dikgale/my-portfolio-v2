@@ -1,4 +1,3 @@
-import React from "react";
 import "./Techstacks.css";
 import { FaReact } from "react-icons/fa";
 import {
