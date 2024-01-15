@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar } from "../Navbar/Navbar";
 import { ThemeContext } from "../../Context/theme";
-import Image from "./../../assets/pinkhair.png";
+import Image from "./../../assets/logo.png";
 
 import "./Header.css";
 export const Header = () => {
@@ -10,14 +10,14 @@ export const Header = () => {
   return (
     <>
       <header className={"header center " + themename}>
-        <h3>
+        <h5>
           <a href="#home" className="link">
             <span >
               <img src={Image} alt="N" className="roundImg" />
             </span>
-            Naledi
+            SE
           </a>
-        </h3>
+        </h5>
         <Navbar />
       </header>
     </>
