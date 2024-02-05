@@ -25,6 +25,9 @@ import React from "react";
 import "./Footer.css";
 import { ThemeContext } from "../../Context/theme";
 import Image from "./../../assets/logo.png";
+import { FaLinkedin } from "react-icons/fa";
+import { VscGithub } from "react-icons/vsc";
+import { CgMail } from "react-icons/cg";
 
 export const Footer = () => {
   const [{ themename }] = React.useContext(ThemeContext);
@@ -41,15 +44,27 @@ export const Footer = () => {
       <div className="footer-section">
         {/* Social links section */}
         <div className="social-links">
-          <a href="#" className="social-link">
-            <i className="fab fa-facebook-f"></i>
-          </a>
-          <a href="#" className="social-link">
-            <i className="fab fa-twitter"></i>
-          </a>
-          <a href="#" className="social-link">
-            <i className="fab fa-instagram"></i>
-          </a>
+        <a
+              href="https://www.linkedin.com/in/naledi-dikgale/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaLinkedin className="linkedin" />
+            </a>
+            <a
+              href="https://github.com/Naledi-Dikgale"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <VscGithub className="github" />
+            </a>
+            <a
+              href="mailto:nalediaccc@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <CgMail className="email" />
+            </a>
         </div>
       </div>
       <div className="footer-section">
