@@ -1,4 +1,4 @@
-.footer {
+/* .footer {
   text-align: center;
   color: var(--clr-primary);
 }
@@ -17,4 +17,47 @@
     border-radius: 0;
     margin-bottom: 0;
   }
+} */
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--clr-background);
+  padding: 20px;
+}
+
+.footer-section {
+  flex: 1;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px; /* Adjust according to your design */
+  height: auto;
+  margin-right: 10px;
+}
+
+.company-name {
+  font-size: 1.2rem; /* Adjust font size as needed */
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.social-link {
+  margin: 0 5px;
+  font-size: 1.5rem; /* Adjust font size as needed */
+  color: var(--clr-primary);
+}
+
+.copyright {
+  text-align: center;
+  color: var(--clr-primary);
 }
