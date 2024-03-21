@@ -18,3 +18,35 @@
     margin-bottom: 0;
   }
 }
+
+/* .footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: var(--clr-background);
+  padding: 20px;
+  height: 200px;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-link {
+  margin: 5px 0;
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .footer-section {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+} */

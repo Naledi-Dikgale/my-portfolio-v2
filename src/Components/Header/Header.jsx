@@ -15,7 +15,7 @@ export const Header = () => {
             <span >
               <img src={Image} alt="N" className="roundImg" />
             </span>
-            SE
+            Naledi
           </a>
         </h5>
         <Navbar />
