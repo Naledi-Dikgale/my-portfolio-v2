@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap');
+
 .introduction {
   width: 100%;
   display: flex;
@@ -46,6 +48,12 @@
   top: 5px;
   color: var(--clr-fg-alt);
   margin-right: 0.5em;
+}
+
+.section__title {
+  font-family: 'Aoboshi One', serif;
+  font-size: 2em;
+  margin-bottom: 1em;
 }
 
 @media (max-width: 1022px) {
