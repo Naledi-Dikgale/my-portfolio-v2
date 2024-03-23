@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap');
+
+/* .nav {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+} */
+
 .nav__list {
   margin-right: 1.5em;
   display: flex;
@@ -5,7 +13,12 @@
 
 .nav__list-item {
   margin-left: 1.5em;
+  font-family: 'Aoboshi One', sans-serif;
 }
+
+/* .nav__list-item a {
+  font-family: 'Lobster Two', sans-serif;
+} */
 
 .app .nav__hamburger {
   display: none;
@@ -26,9 +39,18 @@
     width: 100%;
     height: 100%;
     z-index: 2;
+    gap: 1em;
   }
 
   .nav__list-item {
+    margin: 0.5em 0;
+  }
+
+  .nav__list-item a {
+    font-family: 'Aoboshi One', sans-serif;
+    border: 2px solid var(--clr-fg-alt);
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
     margin: 0.5em 0;
   }
 
