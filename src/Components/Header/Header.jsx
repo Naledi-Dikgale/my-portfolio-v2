@@ -13,9 +13,9 @@ export const Header = () => {
         <h5>
           <a href="#home" className="link">
             <span >
-              <img src={Image} alt="N" className="roundImg" />
+              <img src={Image} alt="N" className="profileImg" />
             </span>
-            Naledi
+            NALEDI
           </a>
         </h5>
         <Navbar />

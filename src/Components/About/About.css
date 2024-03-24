@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap');
+
 .about {
   flex-direction: column;
   margin-top: 3em;
@@ -48,9 +50,14 @@
   color: var(--clr-bg);
 }
 
+.introTitle {
+  font-family: 'Aoboshi One', sans-serif;
+}
+
 @media (max-width: 600px) {
-  .mobileHead {
+  .introTitle {
     align-content: center;
+    font-family: 'Aoboshi One', sans-serif;
   }
 
   .app .about {
