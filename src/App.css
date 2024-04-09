@@ -28,6 +28,14 @@
   --shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 }
 
+/* .dark .footer {
+  background-color: var(--clr-bg-alt);
+}
+
+.light .footer {
+  background-color: var(--clr-bg);
+} */
+
 main {
   max-width: 1100px;
   width: 95%;
