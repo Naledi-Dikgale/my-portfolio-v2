@@ -49,7 +49,7 @@ export const Footer = () => {
             className="social-link"
           >
             <FaLinkedin className="linkedin" />
-            <span className="social-media-name">LinkedIn</span>
+            {/* <span className="social-media-name">LinkedIn</span> */}
           </a>
           <a
             href="https://github.com/Naledi-Dikgale"
@@ -58,7 +58,7 @@ export const Footer = () => {
             className="social-link"
           >
             <VscGithub className="github" />
-            <span className="social-media-name">GitHub</span>
+            {/* <span className="social-media-name">GitHub</span> */}
           </a>
           <a
             href="mailto:nalediaccc@gmail.com"
@@ -67,13 +67,13 @@ export const Footer = () => {
             className="social-link"
           >
             <CgMail className="email" />
-            <span className="social-media-name">Email</span>
+            {/* <span className="social-media-name">Email</span> */}
           </a>
         </div>
       </div>
       <div className="footer-section">
         <div className="copyright">
-          <p>Copyright © 2024 Naledi Dikgale - All rights Reserved</p>
+          <p>Copyright © 2024 Naledi - All rights Reserved</p>
         </div>
       </div>
     </div>
