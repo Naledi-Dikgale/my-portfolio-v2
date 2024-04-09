@@ -38,7 +38,6 @@
 .btnResume {
   color: var(--clr-primary);
   border: 2px solid var(--clr-primary);
-  border-radius: 5px;
   height: 50px;
   cursor: pointer;
   padding: 0 30px;
