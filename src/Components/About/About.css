@@ -7,6 +7,7 @@
 
 .about__name {
   color: var(--clr-primary);
+  font-size: 3rem;
 }
 
 .about > :nth-child(2) {
@@ -36,12 +37,12 @@
 }
 
 .btnResume {
-  color: var(--clr-primary);
-  border: 2px solid var(--clr-primary);
+  color: var(--clr-bg);
   height: 50px;
   cursor: pointer;
   padding: 0 30px;
   margin-top: 10px;
+  background-color: var(--clr-primary);
 }
 
 .btnResume:hover {
