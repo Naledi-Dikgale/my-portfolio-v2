@@ -1,16 +1,15 @@
 import "./About.css";
 import { Type } from "./Type";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import EmailIcon from "@mui/icons-material/Email";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
+
 export const About = () => {
   return (
     <>
       <div className="about center">
-        <h1 data-aos="fade-right" className="mobileHead">
+        <h1 data-aos="fade-right" className="introTitle">
           Hello, I am <span className="about__name">Naledi Dikgale</span>
         </h1>
         <Type />
@@ -27,7 +26,7 @@ export const About = () => {
             rel="noreferrer"
             className="link link--icon"
           >
-            <GitHubIcon />
+            <FaGithub />
           </a>
           <a
             href="mailto:nalediaccc@gmail.com"
@@ -36,7 +35,7 @@ export const About = () => {
             aria-label="mail"
             className="link link--icon"
           >
-            <EmailIcon />
+            <FaEnvelope />
           </a>
           <a
             href="https://www.linkedin.com/in/naledi-dikgale"
@@ -45,7 +44,7 @@ export const About = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <LinkedInIcon />
+            <FaLinkedin />
           </a>
         </div>
 

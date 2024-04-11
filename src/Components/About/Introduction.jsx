@@ -1,9 +1,8 @@
 import React from "react";
 import "./Introduction.css";
-import ExitToAppIcon from "@mui/icons-material/ExitToApp";
+import { FiLogOut } from "react-icons/fi";
 import { ThemeContext } from "../../Context/theme";
 import profilePic from '../../assets/pinkhair.png';
-
 
 export const Introduction = () => {
   const [{ themename }] = React.useContext(ThemeContext);
@@ -24,8 +23,7 @@ export const Introduction = () => {
                 Hi, My name is{" "}
                 <span className="pink">Naledi Dikgale </span> and I am from{" "}
                 <span className="pink">
-                  {" "}
-                  Cape Town, South Africa{" "}
+                  {" "}Cape Town, South Africa{" "}
                 </span>
                 . I have completed my graduation in Full Stack (Software Engineering)
                 from{" "}
@@ -38,31 +36,31 @@ export const Introduction = () => {
               <h4>Apart from Coding I love:</h4>
               <h4 className="pink">
                 <span className="icons">
-                  <ExitToAppIcon />
+                  <FiLogOut />
                 </span>
                 Dogs{" "}
               </h4>
               <h4 className="pink">
                 <span className="icons">
-                  <ExitToAppIcon />
+                  <FiLogOut />
                 </span>
                 Travelling{" "}
               </h4>
               <h4 className="pink">
                 <span className="icons">
-                  <ExitToAppIcon />
+                  <FiLogOut />
                 </span>
                 Playing 30 Seconds{" "}
               </h4>
               <h4 className="pink">
                 <span className="icons">
-                  <ExitToAppIcon />
+                  <FiLogOut />
                 </span>
                 Swimming{" "}
               </h4>
               <h4 className="pink">
                 <span className="icons">
-                  <ExitToAppIcon />
+                  <FiLogOut />
                 </span>
                 Hiking{" "}
               </h4>

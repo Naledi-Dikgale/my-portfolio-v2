@@ -7,8 +7,6 @@
   text-align: center;
   background-color: var(--clr-bg);
   height: 50vh;
-
-  /* max-height: 400px; */
 }
 
 .techsection > div {
@@ -17,8 +15,6 @@
   max-height: 140px;
   box-shadow: var(--shadow);
   z-index: 1;
-
-  /* border-radius: 20px; */
   margin: 2.5%;
   float: left;
   display: flex;
@@ -40,8 +36,6 @@
 }
 
 .techsection > div > svg {
-  /* height: 50%;
-  width: 50%; */
   font-size: 8vh;
   color: var(--clr-primary);
 }

@@ -1,10 +1,7 @@
 import React from "react";
 import { ThemeContext } from "../../Context/theme";
 import "./Navbar.css";
-import Brightness2Icon from "@mui/icons-material/Brightness2";
-import WbSunnyRoundedIcon from "@mui/icons-material/WbSunnyRounded";
-import MenuIcon from "@mui/icons-material/Menu";
-import CloseIcon from "@mui/icons-material/Close";
+import { FiSun, FiMoon, FiMenu, FiX } from "react-icons/fi";
 
 export const Navbar = () => {
   const [{ themename, toggeltheme }] = React.useContext(ThemeContext);
@@ -88,7 +85,7 @@ export const Navbar = () => {
           aria-label="toggle theme"
           style={{ backgroundColor: "inherit" }}
         >
-          {themename === "dark" ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
+          {themename === "dark" ? <FiSun /> : <FiMoon />}
         </button>
         <button
           type="button"
@@ -96,7 +93,7 @@ export const Navbar = () => {
           className="btn btn--icon nav__hamburger"
           aria-label="toggle navigation"
         >
-          {showNavList ? <CloseIcon /> : <MenuIcon />}
+          {showNavList ? <FiX /> : <FiMenu />}
         </button>
       </nav>
     </>
