@@ -1,9 +1,6 @@
 import React from "react";
 import "./Contact.css";
-import { VscGithub } from "react-icons/vsc";
-import { CgMail } from "react-icons/cg";
 import { ThemeContext } from "../../Context/theme";
-import { FaLinkedin } from "react-icons/fa";
 import { AiOutlineMedium, AiFillGithub, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
 import { FaAngellist } from 'react-icons/fa';
 
