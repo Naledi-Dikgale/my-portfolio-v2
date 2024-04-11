@@ -15,7 +15,7 @@ export const Header = () => {
             <span >
               <img src={Image} alt="N" className="profileImg" />
             </span>
-            NALEDI
+            Software Engineer
           </a>
         </h5>
         <Navbar />

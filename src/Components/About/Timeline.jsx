@@ -6,7 +6,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
-import WorkIcon from "@mui/icons-material/Work";
+import { FaBriefcase } from "react-icons/fa"; // Importing Font Awesome Briefcase icon
 import { ThemeContext } from "../../Context/theme";
 
 export const Timeline = () => {
@@ -47,7 +47,7 @@ export const Timeline = () => {
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
-            icon={<WorkIcon />}
+            icon={<FaBriefcase />} // Using Font Awesome Briefcase icon
           >
             <h3
               className="vertical-timeline-element-title"
@@ -84,7 +84,7 @@ export const Timeline = () => {
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
-            icon={<WorkIcon />}
+            icon={<FaBriefcase />} // Using Font Awesome Briefcase icon
           >
             <h3
               className="vertical-timeline-element-title"

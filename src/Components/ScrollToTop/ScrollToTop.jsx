@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
+import { FaArrowUp } from "react-icons/fa";
 import "./ScrollToTop.css";
 
 export const ScrollToTop = () => {
@@ -16,7 +16,7 @@ export const ScrollToTop = () => {
   return isVisible ? (
     <div className="scroll-top">
       <a href="#top">
-        <ArrowUpwardIcon fontSize="large" />
+        <FaArrowUp size="2em" />
       </a>
     </div>
   ) : null;
