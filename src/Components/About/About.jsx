@@ -1,4 +1,3 @@
-import React from "react";
 import "./About.css";
 import { Type } from "./Type";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
