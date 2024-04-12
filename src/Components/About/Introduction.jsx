@@ -31,7 +31,7 @@ export const Introduction = () => {
                   Microverse
                 </span>
                 . I love to design and code things from scratch.{" "}
-                <span className="pink">DIY</span>  And fix Broken things.
+                <span className="pink">DIY</span>  and fix broken things.
               </h4>
               <h4>Apart from Coding I love:</h4>
               <h4 className="pink">
