@@ -21,7 +21,8 @@
 .footer-section:first-child::after,
 .footer-section:last-child::before {
   content: "";
-  border-top: 1px solid var(--clr-primary);
+
+  /* border-top: 1px solid var(--clr-primary); */
   width: 100%;
   margin: 20px 0;
 }
