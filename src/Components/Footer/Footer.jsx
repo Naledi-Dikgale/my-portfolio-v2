@@ -16,7 +16,7 @@ export const Footer = () => {
       </div>
       <div className="footer-section">
         <div className="copyright">
-          <p>Copyright © 2024 Naledi - All rights Reserved</p>
+          <p>Copyright © 2025 Naledi - All rights Reserved</p>
         </div>
       </div>
     </div>
